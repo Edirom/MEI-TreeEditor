@@ -12,6 +12,7 @@
                  console.log("hello world"); 
             }
             mei.Events.subscribe("HelloMessage", helloWorld, []);
+            mei.Events.unsubscribe(["HelloMessage", helloWorld]);
         </script>
         hello
     </body>
